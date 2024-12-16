@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useContext } from "react";
 import { CartContext } from "@/app/context/CartContext";
 import { useEffect, useState } from "react";
-import { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, updateDoc } from "firebase/firestore";
+import { getFirestore, collection, getDocs, getDoc, doc} from "firebase/firestore";
 import firebaseApp from "@/app/firebaseConfig";
 
 export default function HomePage() {
